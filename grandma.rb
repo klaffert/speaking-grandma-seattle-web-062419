@@ -1,7 +1,7 @@
 # Write a speak_to_grandma method.
 
   def speak_to_grandma(phrase = "")
-    if phrase == "Hi Nana, how are you?".upcase || phrase == "Hi".downcase
+    if phrase != "Hi Nana, how are you?".upcase || phrase == "Hi".downcase
       "HUH?! SPEAK UP SONNY!"
     elsif phrase == "What did you eat today?".upcase || phrase == "What?".upcase
     "NO, NOT SINCE 1938!"
