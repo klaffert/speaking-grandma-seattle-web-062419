@@ -9,7 +9,7 @@ elsif phrase == "Hi, Nana, how are you?".downcase
   "HUH?! SPEAK UP, SONNY!"
 elsif phrase == "Hi!".downcase
 "HUH?! SPEAK UP, SONNY!"
-else phrase == "Hi Nana, how are you?".upcase 
+else phrase == "What did you eat today?".upcase || phrase == "What?".upcase
   "NO, NOT SINCE 1938!"
 end
 end
