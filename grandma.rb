@@ -4,11 +4,11 @@ phrase = "I love you Grandma!"
 
 def speak_to_grandma(phrase)
   if phrase == "I love you Grandma!".upcase
-  "I LOVE YOU TOO PUMPKIN!"
+  puts "I LOVE YOU TOO PUMPKIN!"
 elsif phrase == "Hi, Nana, how are you?".downcase || phrase == "Hi!".downcase
-  "HUH?! SPEAK UP, SONNY!"
+  puts "HUH?! SPEAK UP, SONNY!"
 else phrase == "What did you eat today?".upcase || phrase == "What?".upcase
-  "NO, NOT SINCE 1938!"
+  puts "NO, NOT SINCE 1938!"
 end
 end
   
