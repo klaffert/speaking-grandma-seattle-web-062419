@@ -3,7 +3,6 @@
 def speak_to_grandma(phrase = "I love you Grandma!")
   phrase == phrase.upcase
     puts "I LOVE YOU TOO PUMPKIN!"
-  end
 end
   
 
