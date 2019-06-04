@@ -5,9 +5,6 @@ phrase = "I love you Grandma!"
 def speak_to_grandma(phrase)
   phrase.upcase
   puts "I LOVE YOU TOO PUMPKIN!"
-else 
-  
-end
 end
   
 
