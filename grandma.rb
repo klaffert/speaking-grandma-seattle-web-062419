@@ -2,16 +2,15 @@
 
 phrase = "I love you Grandma!"
 
-def speak_to_grandma(phrase)
-  if phrase == "I love you Grandma!".upcase
-  "I LOVE YOU TOO PUMPKIN!"
-elsif phrase == "Hi, Nana, how are you?"
-  "HUH?! SPEAK UP, SONNY!"
-else phrase == "What did you eat today?".upcase || phrase == "What?".upcase
-  "NO, NOT SINCE 1938!"
+  def speak_to_grandma(phrase)
+    if phrase == "Hi Nana, how are you?".downcase || phrase == "Hi".downcase
+      "HUH?! SPEAK UP SONNY!"
+    elsif phrase == "What did you eat today?".upcase || phrase == "What?".upcase
+    "NO, NOT SINCE 1938!"
+  else phrase == "I love you Grandma!".upcase
+    "I LOVE YOU TOO PUMPKIN!"
+  end
 end
-end
-  
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
