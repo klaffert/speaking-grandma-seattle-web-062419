@@ -5,7 +5,7 @@ speak_up = "Huh?! Speak up, Sonny!"
 
 def speak_to_grandma(phrase)
   if phrase.upcase
-  "I LOVE YOU TOO PUMPKIN!"
+  puts "I LOVE YOU TOO PUMPKIN!"
 else 
   return speak_up.upcase 
 end
