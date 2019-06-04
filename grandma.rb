@@ -1,10 +1,13 @@
 # Write a speak_to_grandma method.
 
 phrase = "I love you Grandma!"
+speak_up = "Huh?! Speak up, Sonny!"
 
 def speak_to_grandma(phrase)
-  phrase.upcase
+  if phrase.upcase
   return "I LOVE YOU TOO PUMPKIN!"
+else 
+  return speak_up.upcase 
 end
   
 
