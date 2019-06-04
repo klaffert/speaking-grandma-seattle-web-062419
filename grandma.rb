@@ -9,6 +9,7 @@ def speak_to_grandma(phrase)
 else 
   return speak_up.upcase 
 end
+end
   
 
 # Whatever you say to grandma, she should respond with
