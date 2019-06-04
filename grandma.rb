@@ -2,7 +2,7 @@
 
   def speak_to_grandma(phrase = "")
     if phrase != phrase.upcase
-      "HUH?! SPEAK UP SONNY!"
+      "HUH?! SPEAK UP, SONNY!"
     elsif phrase == "What did you eat today?".upcase || phrase == "What?".upcase
     "NO, NOT SINCE 1938!"
   else phrase == "I love you Grandma!".upcase
