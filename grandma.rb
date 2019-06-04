@@ -2,8 +2,9 @@
 
 def speak_to_grandma(phrase = "I love you Grandma!")
   if phrase.upcase
+    puts phrase
   else 
-    return "HUH?! SPEAK UP, SONNY!"
+    puts "HUH?! SPEAK UP, SONNY!"
   end
 end
   
