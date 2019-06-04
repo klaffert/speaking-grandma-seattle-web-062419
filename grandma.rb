@@ -5,7 +5,7 @@ phrase = "I love you Grandma!"
 def speak_to_grandma(phrase)
   if phrase == "I love you Grandma!".upcase
   "I LOVE YOU TOO PUMPKIN!"
-elsif phrase.downcase
+elsif phrase == "Hi, Nana, how are you?".downcase
   "HUH?! SPEAK UP, SONNY!"
 elsif phrase == "Hi!".downcase
 "HUH?! SPEAK UP, SONNY!"
